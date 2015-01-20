@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -13,6 +14,7 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="custom.css" rel="stylesheet">
+    <link href="people.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -43,7 +45,7 @@
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li><a href="index.html">Home</a></li>
-                <li class="active"><a href="#people">Students</a></li>
+                <li class="active"><a href="people.html">Students</a></li>
                 <li><a href="plan.html">Plan</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -67,30 +69,91 @@
       </div>
     </div>
 
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
     <div class="container marketing">
 
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="col-lg-4">
-          <img class="img-circle" src="images/lance.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
-          <h2>Lance Johnson</h2>
-          <p>Lance Johnson is a freelance writer for FastCompany Magazine specializing in traffic optimization, with extensive experience in proofreading, editing, and effective writing. He is also a researcher at the Harvard Medical School investigating brain-machine interfaces.</p>
-          <p><a class="btn btn-default" href="#" role="button">View resume &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle" src="images/victoria.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
-          <h2>Victoria Olakojo</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-          <p><a class="btn btn-default" href="#" role="button">View resume &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle" src="images/aaron.jpg" alt="Aaron Vontell" style="width: 140px; height: 140px;">
-          <h2>Aaron Vontell</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View resume &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
+      <!-- START THE FEATURETTES -->
+
+      <h2 class="featurette-heading" id="title">Meet the Students<span class="text-muted"></h2>
+      <h3 class="text-muted" id="subtitle">Our students have been accepted to some of the best colleges, universities, and institutes. Their experience with the college admissions process will ensure that you get the best guidance toward your educational goals.</h3>
+
+      <hr class="featurette-divider">
+
+      <!-- Lance Featurette -->
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading2">Lance Johnson<span class="text-muted"></h2>
+          <p class="school">School: Harvard University</p>
+          <p class="location">Location: Cambridge, MA</p>
+          <p class="lead">Lance Johnson is a freelance writer for FastCompany Magazine specializing in traffic optimization, with extensive experience in proofreading, editing, and effective writing. He is also a researcher at the Harvard Medical School investigating brain-machine interfaces. 
+          Lance has vast knowledge and experience with the college admissions process and admissions officers, test-taking strategies, application building and various approaches to making college affordable.<br /><br />
+          He is currently pursuing a bachelor’s degree in neurobiology from Harvard.</p>
+          <p><a class="btn btn-default" href="resumes/lance_resume.pdf" role="button">View resume &raquo;</a></p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="images/lance_detail.jpg" alt="Generic placeholder image">
+        </div>
       </div>
-    </div>
+
+      <hr class="featurette-divider">
+
+      <!-- Victoria Featurette -->
+
+      <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="images/feature2.jpg" alt="Generic placeholder image">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Victoria Olakojo<span class="text-muted"></span></h2>
+          <p class="lead">Our highly customized advisory program is designed to guide students and parents through every step of the college admissions journey. Our goal is to help students strengthen every facet of their applications, allowing them to approach college with complete confidence.</p>
+          <p><a class="btn btn-default" href="plan.html" role="button">View resume &raquo;</a></p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- Aaron Featurette -->
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading2">Aaron Vontell<br /><span class="text-muted"></span></h2>
+          <p class="school">School: Massachusetts Institute of Technology</p>
+          <p class="location">Location: Cambridge, MA</p>
+          <p class="lead">Aaron Vontell is an avid Android and iOS developer. He is currently working with a Boston-based statup called Parcio as their lead software developer. He is also working on a multitude of personal technology projects, as well as attending hackathons. Aaron has had substantial exposure to standardized testing, interviews, and the college application process.<br /><br />
+          He is currently pursuing a bachelor's degree in Electrical Engineering and Computer Science from the Massachusetts Institute of Technology.</p>
+          <p><a class="btn btn-default" href="plan.html" role="button">View resume &raquo;</a></p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="images/aaron_detail.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
 
 
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/docs.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
 </html>
