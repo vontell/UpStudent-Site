@@ -14,16 +14,21 @@
 	margin-top: 120px;
 }
 
-.location {
-	font-style: italic;
-	font-size: 18px;
+.thumbnail {
+	max-width: 200px;
 }
 
-.school {
-	font-weight: bold;
+.extra-info {
+	font-style: bold;
 	font-size: 18px;
 }
 
 .featurette-heading2 {
 	font-size: 48px;
+}
+
+#vertcenter{
+	height: 100%;
+	display:table-cell; 
+	vertical-align:middle;
 }
