@@ -8,6 +8,14 @@
 	max-width: 1000px;
 }
 
+.panel-body {
+
+}
+
+.panel-title {
+	font-size: 22px;
+}
+
 #title {
 	text-align: center;
 	font-size: 48px;
