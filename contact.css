@@ -13,3 +13,32 @@
 .needs-margin {
 	margin-top: 120px
 }
+
+.panel-title {
+	text-align: center;
+	font-size: 24px;
+}
+
+.panel-body {
+	text-align: center;
+}
+
+.role {
+
+	font-weight: bold;
+
+}
+
+.location {
+
+	font-style: italic;
+
+}
+
+.email {
+
+}
+
+.hours {
+
+}
