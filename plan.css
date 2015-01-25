@@ -26,3 +26,8 @@
 	margin-right: auto;
 	max-width: 800px;
 }
+
+.jumbotron {
+	background-image: url("");
+	background-position: center;
+}
