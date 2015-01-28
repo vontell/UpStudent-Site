@@ -23,3 +23,7 @@
 	text-align: center;
 	text-align: inline;
 }
+
+.fb {
+	display: inline-block;
+}
