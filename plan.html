@@ -27,6 +27,8 @@
 <!-- NAVBAR
 ================================================== -->
   <body>
+    <div class="overlay img1" data-start="opacity:1" data-end="opacity:0"></div>
+    <div class="overlay img2" data-start="opacity:0" data-end="opacity:1"></div>
     <div class="navbar-wrapper">
       <div class="container">
 
@@ -111,8 +113,8 @@
 
       <!-- FOOTER -->
       <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2015 UpStudent &middot; <a href="privacy.html">Privacy</a> &middot; <a href="terms.html">Terms</a></p>
+        <p class="pull-right well"><a href="#">Back to top</a></p>
+        <p class="well">&copy; 2015 UpStudent &middot; <a href="privacy.html">Privacy</a> &middot; <a href="terms.html">Terms</a></p>
       </footer>
 
 
@@ -124,6 +126,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/docs.min.js"></script>
+    <script src="js/skrollr.js"></script>
+    <script type="text/javascript">
+      skrollr.init({
+      });
+    </script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
 

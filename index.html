@@ -16,6 +16,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="custom.css" rel="stylesheet">
     <link href="navbar.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -29,6 +30,8 @@
 <!-- NAVBAR
 ================================================== -->
   <body>
+    <div class="overlay img1" data-start="opacity:1" data-end="opacity:0"></div>
+    <div class="overlay img2" data-start="opacity:0" data-end="opacity:1"></div>
     <div class="navbar-wrapper">
       <div class="container">
 
@@ -78,7 +81,7 @@
           <img src="images/cover3.jpg" alt="Cover">
           <div class="container">
             <div class="carousel-caption">
-              <h2 class="cover-large"><img alt="Brand" src="images/upstudent_logo.png" height="220px" width="370px"></h2>
+              <h2 class="cover-large"><img alt="Brand" src="images/cover_text.png" height="220px" width="370px"></h2>
               <p class="cover-caption">All the knowledge, coaching and tools you need to get into the right university, from the people with first-hand experience.</p>
               <p><a class="btn btn-lg btn-danger" href="sign_up.html" role="button">Sign up today</a></p>
             </div>
@@ -159,7 +162,7 @@
           <p><a class="btn btn-default" href="people.html" role="button">View the students you can connect with &raquo;</a></p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="images/feature1.jpg" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive" src="images/feature1.png" alt="Generic placeholder image">
         </div>
       </div>
 
@@ -167,7 +170,7 @@
 
       <div class="row featurette">
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="images/feature2.jpg" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive" src="images/feature2.png" alt="Generic placeholder image">
         </div>
         <div class="col-md-7">
           <h2 class="featurette-heading">Customized plans for every student<span class="text-muted"></span></h2>
@@ -185,7 +188,7 @@
           <p><a class="btn btn-default" href="sign_up.html" role="button">Sign up &raquo;</a></p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="images/feature3.jpg" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive" src="images/feature3.png" alt="Generic placeholder image">
         </div>
       </div>
 
@@ -208,6 +211,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/docs.min.js"></script>
+    <script src="js/skrollr.js"></script>
+    <script type="text/javascript">
+      skrollr.init({
+      });
+    </script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
   </body>
