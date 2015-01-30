@@ -40,12 +40,11 @@
 }
 
 body {
-	background:hsl(0,100%,100%);
+	background:hsl(360,100%,100%);
 }
 
 .img1 {
-	background-image:url("images/col_class.jpg");
-	background-position: center;
+	background:hsl(360,100%,100%);
 }
 
 .img2 {
