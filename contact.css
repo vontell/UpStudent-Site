@@ -29,6 +29,11 @@
 
 }
 
+.row {
+	background-image:url("images/ribbon.png");
+	background-position: center;
+}
+
 .location {
 
 	font-style: italic;
