@@ -22,3 +22,11 @@ body {
 	background-image:url("images/abstract2.jpg");
 	background-position: center;
 }
+
+.carimg {
+    background: url(images/cover3.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
