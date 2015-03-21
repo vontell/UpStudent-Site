@@ -16,17 +16,33 @@ body {
 .img1 {
 	background-image:url("images/abstract1.jpg");
 	background-position: center;
+    background-size: cover;
 }
 
 .img2 {
 	background-image:url("images/abstract2.jpg");
 	background-position: center;
+    background-size: cover;
 }
 
-.carimg {
-    background: url(images/cover3.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+.car-img-1 {
+    background-image:url("images/cover3.jpg");
+    background-position: center;
     background-size: cover;
+}
+
+.car-img-2 {
+    background-image:url("images/cover2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.car-img-3 {
+    background-image:url("images/cover1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.sub_margined {
+    margin-bottom: 20px;
 }
