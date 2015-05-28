@@ -32,4 +32,17 @@
 	padding-top: 4px;
 }
 
+.terms {
+	text-align: center;
+	text-align: inline;
+	font-size: 24px;
+}
 
+.needs-margin{
+	margin-top: 120px;
+}
+
+#title {
+	text-align: center;
+	font-size: 48px;
+}
