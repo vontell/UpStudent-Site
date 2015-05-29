@@ -1,0 +1,68 @@
+#subtitle
+{
+  color:#E6E6E6;
+  margin-left:auto;
+  margin-right:auto;
+  max-width:800px;
+  text-align:center;
+}
+
+#title
+{
+  color:#ffffff;
+  font-size:48px;
+  text-align:center;
+}
+
+.img1
+{
+  background-image:url(../images/cover3.jpg);
+  background-position:center;
+}
+
+.img2
+{
+  background-image:url(../images/library2.jpg);
+  background-position:center;
+}
+
+.jumbotron
+{
+  background-image:url();
+  background-position:center;
+}
+
+.overlay
+{
+  background-color:#ccc;
+  height:100%;
+  left:0;
+  opacity:1;
+  position:fixed;
+  top:0;
+  width:100%;
+  z-index:-1;
+}
+
+.panel
+{
+  margin-left:auto;
+  margin-right:auto;
+  max-width:1000px;
+}
+
+.panel-body
+{
+  text-align:left;
+}
+
+.panel-title
+{
+  font-size:22px;
+  text-align:left;
+}
+
+body
+{
+  background:hsl(0,0%,0%);
+}

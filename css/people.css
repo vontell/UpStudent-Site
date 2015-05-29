@@ -1,0 +1,51 @@
+.featurette-heading2
+{
+  font-size:48px;
+}
+
+.img2
+{
+  background-image:url(../images/harvard_trans.jpg);
+  background-position:center;
+}
+
+.img3
+{
+  background-image:url(../images/bu_trans.jpg);
+  background-position:center;
+}
+
+.img4
+{
+  background-image:url(../images/mit_trans.jpg);
+  background-position:center;
+}
+
+.location
+{
+  font-size:18px;
+  font-style:italic;
+}
+
+.overlay
+{
+  background-color:#ccc;
+  height:100%;
+  left:0;
+  opacity:1;
+  position:fixed;
+  top:0;
+  width:100%;
+  z-index:-1;
+}
+
+.school
+{
+  font-size:18px;
+  font-weight:bold;
+}
+
+body,.img1
+{
+  background:hsl(360,100%,100%);
+}
