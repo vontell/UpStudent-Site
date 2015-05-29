@@ -38,6 +38,10 @@
 	font-size: 24px;
 }
 
+.privacy {
+	font-size: 18px;
+}
+
 .needs-margin{
 	margin-top: 120px;
 }
@@ -45,4 +49,8 @@
 #title {
 	text-align: center;
 	font-size: 48px;
+}
+
+.default {
+	font-size: 14px;
 }
