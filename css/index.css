@@ -1,0 +1,56 @@
+.car-img-1
+{
+  background-image:url(../images/cover3.jpg);
+  background-position:center;
+  background-size:cover;
+}
+
+.car-img-2
+{
+  background-image:url(../images/cover2.jpg);
+  background-position:center;
+  background-size:cover;
+}
+
+.car-img-3
+{
+  background-image:url(../images/cover1.jpg);
+  background-position:center;
+  background-size:cover;
+}
+
+.img1
+{
+  background-image:url(../images/abstract1.jpg);
+  background-position:center;
+  background-size:cover;
+}
+
+.img2
+{
+  background-image:url(../images/abstract2.jpg);
+  background-position:center;
+  background-size:cover;
+}
+
+.overlay
+{
+  background-color:#ccc;
+  height:100%;
+  left:0;
+  opacity:1;
+  position:fixed;
+  top:0;
+  width:100%;
+  z-index:-1;
+}
+
+.sub_margined
+{
+  margin-bottom:20px;
+}
+
+body
+{
+  background:hsl(0,100%,100%);
+}
