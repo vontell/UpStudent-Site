@@ -25,6 +25,25 @@
 <!-- NAVBAR
 ================================================== -->
   <body>
+    <div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '257001801136821',
+          xfbml      : true,
+          version    : 'v2.3'
+        });
+      };
+
+      (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=257001801136821";
+        fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
+
     <div class="navbar-wrapper">
       <div class="container">
 
@@ -61,7 +80,6 @@
       </div>
     </div>
 
-
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
@@ -71,6 +89,8 @@
       <h2 class="needs-margin" id="title">Terms of Use<span class="text-muted"></h2>
 
       <hr class="featurette-divider">
+
+      <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
 
       <p class="terms">
         UP Student strives to connect high school students pursing post-secondary education with college students who can share their knowledge and experience from achieving acceptance into the most selective schools in the country. Our tutoring curriculum is largely based on our personal experiences and our tools come from a pool of resources our close colleagues or we have individually benefitted from. While we offer a unique form of advising, we are not guaranteeing any student entry into higher institutions. We believe our program will greatly contribute to college acceptances, however, the universities you apply to will ultimately decide the status of your acceptance. We do not have any affiliation with any university. We simply aim to support and advise you on your road to college.
